@@ -1,0 +1,188 @@
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: orange;
+}
+
+body{
+	background-color:#5C5C5C;
+}
+.main{
+	margin:  auto;
+    position: relative;
+    width: 1140px;
+    min-height:900px;
+	background-color:white;
+	border-radius: 15px 15px;	
+}
+
+#head{
+	width:100%;
+	height:300px;
+	background-image: url("img/papernews.jpg");
+	background-size: 100%;
+	margin-bottom:25px;
+	border-radius: 15px 15px 0px 0px;
+	z-index:-1;
+}
+.userPanel{
+	background-color:white;
+	border:1px solid silver;
+	display: inline-block;
+	float:left;
+	width:150px;
+	height: 300px;
+	margin-left:112px;
+	margin-right:5px;
+	margin-top:10px;
+	border-radius:5px 5px;
+}
+
+.userPanelContent{
+	margin:auto;
+	padding: 26px;
+}
+
+.defaultButton{
+	width:100px;
+	height:40px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #c3c3c3;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #c3c3c3;
+	box-shadow:inset 0px 1px 0px 0px #c3c3c3;
+	background-color:#989898;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #555c61;
+	display:inline-block;
+	cursor:pointer;
+	color:#232323;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 6px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5e5e5e;
+	margin-bottom:2px;
+}
+
+.defaultButton:hover {
+	background-color:#80b5ea;
+}
+.defaultButton:active {
+	position:relative;
+	top:1px;
+}
+
+.breaker{
+	display: none;
+}
+
+#fieldsDescription{	
+	display: inline-block;
+	text-align:right;
+}
+
+#addArea, #editArea{
+	width:80%;
+	margin:20px 0px 15px auto;
+}
+
+#loginFields{
+	width:300px;
+	display: inline-block;
+}
+
+#adminPanel{
+	background-image: url('img/panelbcg.jpg');
+	display: inline-block;
+	float:left;
+	width:150px;
+	height:80%;
+	border: 2px solid black;
+	margin-left:10px;	
+}
+
+#searchBox{
+	width: 200px;
+	display:inline-block;
+}
+
+.result{
+	margin:0px;
+}
+
+.result a{
+	text-decoration:none;
+	font-size:18px;
+}
+
+#permissionsArea{
+	width:300px;
+	margin:10px 0px 0px 8px;
+	display:inline-block;
+}
+
+#add{
+	background:url('img/buttons2.jpg') -6px -4px;
+	background-size: 225%;
+	border-radius: 5%;
+	width: 90px;
+	height:40px;
+}
+
+#adminPanelButton{
+	background:url('img/buttons2.jpg') -6px -111px;
+	background-size: 225%;
+	border-radius: 5%;
+	width: 90px;
+	height:40px;
+}
+
+#changePermissionsButton{
+	background:url('img/buttons2.jpg') -0px -46px;
+	background-size: 400%;
+	border-radius: 5%;
+	width: 45px;
+	height:40px;
+}
+
+
+#newsArea{
+	width: 700px;
+	margin: 10px 0px 5px 2px;
+	background-color:white;	
+	display: inline-block;	
+}
+
+.news{
+	padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	border: 1px solid black;
+	border-radius:6px 6px;
+	text-align: justify;
+	margin: auto;
+	margin-bottom: 3px;
+	width: 650px;
+	font-family: tahoma, times, arial;
+}
+
+.switcher{
+	width:80px;
+	display:block;
+	float:right;
+}
+
+.newsBody{
+	display:block;
+}
+
+#newContent{
+	width: 450px;
+	height: 200px;
+}

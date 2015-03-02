@@ -1,0 +1,1 @@
+To login as admin use login: "admin" and password: "admin".
